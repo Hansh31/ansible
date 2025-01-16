@@ -1,0 +1,6 @@
+- name: Hello Playbook
+  hosts: web
+  tasks:
+  - name: print hello world
+    ansiansible.builtin.debug:
+      msg: "Hello World"
