@@ -2,5 +2,5 @@
   hosts: web
   tasks:
   - name: print hello world
-    ansiansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello World"
