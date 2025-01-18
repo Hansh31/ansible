@@ -1,0 +1,13 @@
+- name: variables from files
+  hosts: local
+  connection: local
+  vars_promt:
+  - name: COURSE
+    prompt: "Devops with AWS"
+  - name: DURATION
+    prompt: 120hrs
+    private: false
+  tasks:
+  - name: Print course information
+    ansible.builtin.debug:
+      msg: "course is {{ COURSE }},Duration is {{ DURATION }},Trainer is {{ TRAINER }}"
