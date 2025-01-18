@@ -5,10 +5,10 @@
     course_name: "Devops with AWS" # string
     duration: 120 # number
     topics: # whatever starts with '-' is called list
-    - linux
-    - shell
-    - ansible
-    - linux
+    - linux /n
+    - shell /n
+    - ansible /n
+    - linux /n
     - AWS
     live: true # boolean
     tools: #map
