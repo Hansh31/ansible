@@ -3,10 +3,11 @@
   connection: local
   vars_prompt:
   - name: COURSE
-    prompt: "Devops with AWS"
+    prompt: please enter your course name
   - name: DURATION
-    prompt: 120hrs
-    private: false
+    prompt: please enter duration
+  - name: TRAINER
+    prompt: please enter your trainer name
   tasks:
   - name: Print course information
     ansible.builtin.debug:
