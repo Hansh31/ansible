@@ -5,7 +5,7 @@
   - name: install the package
     ansible.builtin.package:
       name: "{{ item }}"
-      state: Present
+      state: 
     loop:
     - gcc
     - mysql
