@@ -46,4 +46,4 @@
     vars:
       numbers: [1,30,40,80,22657]
     ansible.builtin.debug:
-      msg: " Min is: {{ numbers | min }} , Max is: {{ numebrs | max }} "
+      msg: " Min is: {{ numbers | min }} , Max is: {{ numbers | max }} "
